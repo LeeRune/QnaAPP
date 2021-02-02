@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1419489925C6913F008A80AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419489825C6913F008A80AC /* AppDelegate.swift */; };
+		1419489B25C6913F008A80AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419489A25C6913F008A80AC /* SceneDelegate.swift */; };
+		141948A025C6913F008A80AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1419489E25C6913F008A80AC /* Main.storyboard */; };
+		141948A225C69141008A80AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141948A125C69141008A80AC /* Assets.xcassets */; };
+		141948A525C69141008A80AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141948A325C69141008A80AC /* LaunchScreen.storyboard */; };
+		141948B025C69141008A80AC /* QnaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141948AF25C69141008A80AC /* QnaAppTests.swift */; };
+		141948BB25C69141008A80AC /* QnaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141948BA25C69141008A80AC /* QnaAppUITests.swift */; };
+		141948CC25C69193008A80AC /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141948CB25C69193008A80AC /* Qna.swift */; };
+		141948D125C69285008A80AC /* QnaPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141948D025C69285008A80AC /* QnaPool.swift */; };
+		141948D925C69B2D008A80AC /* QnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141948D825C69B2D008A80AC /* QnaViewController.swift */; };
+		14D5ABC025C92647006E08FE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5ABBF25C92647006E08FE /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141948AC25C69141008A80AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1419488D25C6913F008A80AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1419489425C6913F008A80AC;
+			remoteInfo = QnaApp;
+		};
+		141948B725C69141008A80AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1419488D25C6913F008A80AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1419489425C6913F008A80AC;
+			remoteInfo = QnaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1419489525C6913F008A80AC /* QnaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QnaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1419489825C6913F008A80AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1419489A25C6913F008A80AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1419489F25C6913F008A80AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		141948A125C69141008A80AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141948A425C69141008A80AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		141948A625C69141008A80AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141948AB25C69141008A80AC /* QnaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QnaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141948AF25C69141008A80AC /* QnaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaAppTests.swift; sourceTree = "<group>"; };
+		141948B125C69141008A80AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141948B625C69141008A80AC /* QnaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QnaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141948BA25C69141008A80AC /* QnaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaAppUITests.swift; sourceTree = "<group>"; };
+		141948BC25C69141008A80AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141948CB25C69193008A80AC /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
+		141948D025C69285008A80AC /* QnaPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaPool.swift; sourceTree = "<group>"; };
+		141948D825C69B2D008A80AC /* QnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaViewController.swift; sourceTree = "<group>"; };
+		14D5ABBF25C92647006E08FE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1419489225C6913F008A80AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948A825C69141008A80AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948B325C69141008A80AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1419488C25C6913F008A80AC = {
+			isa = PBXGroup;
+			children = (
+				1419489725C6913F008A80AC /* QnaApp */,
+				141948AE25C69141008A80AC /* QnaAppTests */,
+				141948B925C69141008A80AC /* QnaAppUITests */,
+				1419489625C6913F008A80AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1419489625C6913F008A80AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1419489525C6913F008A80AC /* QnaApp.app */,
+				141948AB25C69141008A80AC /* QnaAppTests.xctest */,
+				141948B625C69141008A80AC /* QnaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1419489725C6913F008A80AC /* QnaApp */ = {
+			isa = PBXGroup;
+			children = (
+				1419489825C6913F008A80AC /* AppDelegate.swift */,
+				1419489A25C6913F008A80AC /* SceneDelegate.swift */,
+				1419489E25C6913F008A80AC /* Main.storyboard */,
+				14D5ABBF25C92647006E08FE /* ResultViewController.swift */,
+				141948D825C69B2D008A80AC /* QnaViewController.swift */,
+				141948A125C69141008A80AC /* Assets.xcassets */,
+				141948A325C69141008A80AC /* LaunchScreen.storyboard */,
+				141948A625C69141008A80AC /* Info.plist */,
+				141948CB25C69193008A80AC /* Qna.swift */,
+				141948D025C69285008A80AC /* QnaPool.swift */,
+			);
+			path = QnaApp;
+			sourceTree = "<group>";
+		};
+		141948AE25C69141008A80AC /* QnaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				141948AF25C69141008A80AC /* QnaAppTests.swift */,
+				141948B125C69141008A80AC /* Info.plist */,
+			);
+			path = QnaAppTests;
+			sourceTree = "<group>";
+		};
+		141948B925C69141008A80AC /* QnaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				141948BA25C69141008A80AC /* QnaAppUITests.swift */,
+				141948BC25C69141008A80AC /* Info.plist */,
+			);
+			path = QnaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1419489425C6913F008A80AC /* QnaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141948BF25C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaApp" */;
+			buildPhases = (
+				1419489125C6913F008A80AC /* Sources */,
+				1419489225C6913F008A80AC /* Frameworks */,
+				1419489325C6913F008A80AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QnaApp;
+			productName = QnaApp;
+			productReference = 1419489525C6913F008A80AC /* QnaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		141948AA25C69141008A80AC /* QnaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141948C225C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaAppTests" */;
+			buildPhases = (
+				141948A725C69141008A80AC /* Sources */,
+				141948A825C69141008A80AC /* Frameworks */,
+				141948A925C69141008A80AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141948AD25C69141008A80AC /* PBXTargetDependency */,
+			);
+			name = QnaAppTests;
+			productName = QnaAppTests;
+			productReference = 141948AB25C69141008A80AC /* QnaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		141948B525C69141008A80AC /* QnaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141948C525C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaAppUITests" */;
+			buildPhases = (
+				141948B225C69141008A80AC /* Sources */,
+				141948B325C69141008A80AC /* Frameworks */,
+				141948B425C69141008A80AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141948B825C69141008A80AC /* PBXTargetDependency */,
+			);
+			name = QnaAppUITests;
+			productName = QnaAppUITests;
+			productReference = 141948B625C69141008A80AC /* QnaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1419488D25C6913F008A80AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1419489425C6913F008A80AC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					141948AA25C69141008A80AC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1419489425C6913F008A80AC;
+					};
+					141948B525C69141008A80AC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1419489425C6913F008A80AC;
+					};
+				};
+			};
+			buildConfigurationList = 1419489025C6913F008A80AC /* Build configuration list for PBXProject "QnaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1419488C25C6913F008A80AC;
+			productRefGroup = 1419489625C6913F008A80AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1419489425C6913F008A80AC /* QnaApp */,
+				141948AA25C69141008A80AC /* QnaAppTests */,
+				141948B525C69141008A80AC /* QnaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1419489325C6913F008A80AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141948A525C69141008A80AC /* LaunchScreen.storyboard in Resources */,
+				141948A225C69141008A80AC /* Assets.xcassets in Resources */,
+				141948A025C6913F008A80AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948A925C69141008A80AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948B425C69141008A80AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1419489125C6913F008A80AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141948CC25C69193008A80AC /* Qna.swift in Sources */,
+				141948D125C69285008A80AC /* QnaPool.swift in Sources */,
+				1419489925C6913F008A80AC /* AppDelegate.swift in Sources */,
+				1419489B25C6913F008A80AC /* SceneDelegate.swift in Sources */,
+				141948D925C69B2D008A80AC /* QnaViewController.swift in Sources */,
+				14D5ABC025C92647006E08FE /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948A725C69141008A80AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141948B025C69141008A80AC /* QnaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141948B225C69141008A80AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141948BB25C69141008A80AC /* QnaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141948AD25C69141008A80AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1419489425C6913F008A80AC /* QnaApp */;
+			targetProxy = 141948AC25C69141008A80AC /* PBXContainerItemProxy */;
+		};
+		141948B825C69141008A80AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1419489425C6913F008A80AC /* QnaApp */;
+			targetProxy = 141948B725C69141008A80AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1419489E25C6913F008A80AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1419489F25C6913F008A80AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		141948A325C69141008A80AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141948A425C69141008A80AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		141948BD25C69141008A80AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		141948BE25C69141008A80AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141948C025C69141008A80AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		141948C125C69141008A80AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		141948C325C69141008A80AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QnaApp.app/QnaApp";
+			};
+			name = Debug;
+		};
+		141948C425C69141008A80AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QnaApp.app/QnaApp";
+			};
+			name = Release;
+		};
+		141948C625C69141008A80AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QnaApp;
+			};
+			name = Debug;
+		};
+		141948C725C69141008A80AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QnaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeRune.QnaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QnaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1419489025C6913F008A80AC /* Build configuration list for PBXProject "QnaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141948BD25C69141008A80AC /* Debug */,
+				141948BE25C69141008A80AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141948BF25C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141948C025C69141008A80AC /* Debug */,
+				141948C125C69141008A80AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141948C225C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141948C325C69141008A80AC /* Debug */,
+				141948C425C69141008A80AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141948C525C69141008A80AC /* Build configuration list for PBXNativeTarget "QnaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141948C625C69141008A80AC /* Debug */,
+				141948C725C69141008A80AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1419488D25C6913F008A80AC /* Project object */;
+}
