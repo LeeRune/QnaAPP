@@ -118,7 +118,7 @@
                         <outletCollection property="selectionButton" destination="rXr-kr-m6T" collectionClass="NSMutableArray" id="qSj-sv-10E"/>
                         <outletCollection property="selectionButton" destination="Bta-yk-IQ0" collectionClass="NSMutableArray" id="BKe-Ir-xJn"/>
                         <outletCollection property="selectionButton" destination="WsG-FX-tJj" collectionClass="NSMutableArray" id="Yhy-OK-b98"/>
-                        <segue destination="CSn-yF-q2p" kind="show" identifier="ResultSegue" destinationCreationSelector="showScore:" id="SoL-3h-qg7"/>
+                        <segue destination="CSn-yF-q2p" kind="show" identifier="ResultSegue" id="SoL-3h-qg7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

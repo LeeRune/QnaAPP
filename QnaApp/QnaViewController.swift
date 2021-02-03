@@ -36,6 +36,7 @@ class QnaViewController: UIViewController{
         
     }
     
+
     @IBAction func selectionBtuuon(_ sender: UIButton) {
         
         if option < 10{

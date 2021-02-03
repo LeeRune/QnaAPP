@@ -27,7 +27,16 @@ class ResultViewController: UIViewController {
 
     }
     @IBAction func Again(_ sender: Any) {
-        performSegue(withIdentifier: "QuesSegue", sender: 0)
+        let alert = UIAlertController(title: "系統提示", message: "確定離開嗎？", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "確認", style: .default, handler: { (_) in
+            self.performSegue(withIdentifier: "QuesSegue", sender: 0)
+        }))
+        alert.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
+
+        self.present(alert, animated: true)
+        
+//        performSegue(withIdentifier: "QuesSegue", sender: 0)
     }
     
     
