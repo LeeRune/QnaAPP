@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="QnaViewController" customModule="QnaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIj-d3-2eY">
@@ -163,10 +163,11 @@
                     <navigationItem key="navigationItem" id="MKF-6D-Rxg"/>
                     <connections>
                         <outlet property="scoreLabel" destination="oBV-nO-cYy" id="bRh-7v-Teg"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="QuesSegue" id="SGV-uQ-gqo"/>
+                        <segue destination="1u2-yr-13s" kind="unwind" identifier="Back" unwindAction="back:" id="CHs-IQ-aAy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8M-of-caK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="1u2-yr-13s" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1035" y="80"/>
         </scene>

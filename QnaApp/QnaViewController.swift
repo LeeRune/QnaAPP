@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class QnaViewController: UIViewController{
     
     
@@ -21,19 +22,26 @@ class QnaViewController: UIViewController{
     var option = 1
     var rand = 1
     var score = 0
-    let Q = QnaPool.init().qnas.shuffled()
+    var Q = QnaPool.init().qnas.shuffled()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         showView()
     }
     
+    @IBAction func back(_ unwindSegue: UIStoryboardSegue) {
+        option = 1
+        rand = 1
+        score = 0
+        scoreLabel.text = "得分：\(score)"
+        Q = QnaPool.init().qnas.shuffled()
+        showView()
+    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let next = segue.destination as? ResultViewController{
             next.score = score
         }
-        
     }
     
 
@@ -42,7 +50,6 @@ class QnaViewController: UIViewController{
         if option < 10{
             option += 1
             optionLabel.text = "第 \(option) / 10 題"
-            testLabel.text = rand.description
             if sender.currentTitle == Q[rand].answer{
                 score += 10
                 scoreLabel.text = "得分：\(score)"

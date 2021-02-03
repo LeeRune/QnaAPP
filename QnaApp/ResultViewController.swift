@@ -12,7 +12,7 @@ class ResultViewController: UIViewController {
     
     
     var score: Int?
-
+    var again = 1
     
     @IBOutlet weak var scoreLabel: UILabel!
     
@@ -27,10 +27,13 @@ class ResultViewController: UIViewController {
 
     }
     @IBAction func Again(_ sender: Any) {
+        
         let alert = UIAlertController(title: "系統提示", message: "確定離開嗎？", preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "確認", style: .default, handler: { (_) in
-            self.performSegue(withIdentifier: "QuesSegue", sender: 0)
+            self.performSegue(withIdentifier: "Back", sender: 0)
+            self.dismiss(animated: true)
+
         }))
         alert.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
 
