@@ -35,8 +35,6 @@ class ResultViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
 
         self.present(alert, animated: true)
-        
-//        performSegue(withIdentifier: "QuesSegue", sender: 0)
     }
     
     
